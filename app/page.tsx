@@ -160,7 +160,12 @@ export default function HomePage() {
               <motion.h1 variants={fadeInUp} className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-[1.05] tracking-tight text-white text-balance">
                 {t("hero.headline1")}
                 <br />
-                <span className="text-[var(--brand-accent)]">
+                <span
+                  className="text-[var(--brand-accent)]"
+                  style={{
+                    color: "#3b82f6",
+                    backgroundColor: "#ffffff"
+                  }}>
                   {t("hero.headline2")}
                 </span>
               </motion.h1>
